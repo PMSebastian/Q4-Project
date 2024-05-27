@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="styles.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+	<title>Portfolio | Comments</title>
+
+	<style>
+		#box {
+			text-align: center;
+			padding: 30px;
+			margin-left: 200px;
+			margin-right: 200px;
+			background-color: dimgray;
+			color: white;
+			font-family: monospace;
+		}
+
+		#comments {
+			text-align: center;
+			color: white;
+			font-family: monospace;
+		}
+
+		hr {
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="mainpage.html"><img src="logo.png" alt="ICT-9 logo" class="rounded-circle" id="logo"></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="mynavbar">
+				<ul class="navbar-nav me-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="page2.html">First Quarter</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="page3.html">Second Quarter</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="page4.html">Third Quarter</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="page5.html">What's Next?</a>
+					</li>
+				</ul>
+				<form class="d-flex">
+					<input class="form-control me-2" type="text" placeholder="Enter a keyword..">
+					<button class="btn btn-info" type="button">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<header>
+		<h2>What's Next?</h2>
+	</header>
+
+	<div id="content">
+		<div id="box" class="border border-3">
+			<p>As an ICT student, I expect next year to be a journey full of discovery and growth. I expect to develop a solid understanding of the programming fundamentals of Python. I look forward to honinh my problem-solving skills through hands-on projects and challenges. Moreover, I expect Python to empower me to express my creativity and innovation, whether it's through building interactive applications or delving into the realms of machine learning and artificial intelligence. Overall, I'm excited to embrace Python as a tool for realizing my programming ambitions and unlocking new opportunities in the digital world.</p>
+		</div>
+		<hr>
+		<div id="comments" class="container mt-5 justify-content-center">
+			<h3>Comment Section</h3>
+			<p><i>What do you think of my portfolio?</i></p>
+			<textarea class="form-control" rows="5" id="comment"></textarea>
+			<br>  
+			<button type="submit" class="btn btn-primary">Submit</button>
+		</div>
+	</div>
+</body>
+</html>
